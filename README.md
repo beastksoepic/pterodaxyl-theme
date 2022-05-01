@@ -7,3 +7,10 @@
 cool blue theme i make for pterodactyl
 
 enjoy
+
+## how to install
+
+Install script: **Use root when running this! Else the script will fail!**
+```
+bash <(curl https://raw.githubusercontent.com/beastksoepic/pterodaxyl-theme/main/install.sh)
+```
