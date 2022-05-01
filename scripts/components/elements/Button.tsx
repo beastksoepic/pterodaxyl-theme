@@ -19,8 +19,8 @@ const ButtonStyle = styled.button<Omit<Props, 'isLoading'>>`
         color: #fff !important;
         
         &:hover:not(:disabled) {
-            border-color: #ca5100 !important;
-            background-color: #ca5100 !important;
+            border-color: #0064ca !important;
+            background-color: #0064ca !important;
         }
 
         &:active:not(:disabled) {
@@ -40,8 +40,8 @@ const ButtonStyle = styled.button<Omit<Props, 'isLoading'>>`
             }
             &:active:not(:disabled) {
                 ${tw`bg-green-600 border-green-700`};
-                background-color: #ca5100 !important;
-                border-color: #ca5100 !important;
+                background-color: #0064ca !important;
+                border-color: #0064ca !important;
                 color: #fff !important;
             }
         `};
@@ -148,8 +148,8 @@ const ButtonStyle = styled.button<Omit<Props, 'isLoading'>>`
             }
             &:active:not(:disabled) {
                 ${tw`bg-green-600 border-green-700`};
-                background-color: #ca5100;
-                border-color: #ca5100;
+                background-color: #0064ca;
+                border-color: #0064ca;
                 color: #fff;
             }
 
