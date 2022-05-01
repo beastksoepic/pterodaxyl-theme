@@ -77,9 +77,9 @@ export default () => {
                     <NavLink to={'/'} exact>
                         <FontAwesomeIcon icon={faLayerGroup}/>
                     </NavLink>
-                    {/* <NavLink to={'/account'}>
+                    <NavLink to={'/account'}>
                         <FontAwesomeIcon icon={faUserCircle}/>
-                    </NavLink> */}
+                    </NavLink>
                     {rootAdmin &&
                     <a href={'/admin'} rel={'noreferrer'}>
                         <FontAwesomeIcon icon={faCogs}/>
