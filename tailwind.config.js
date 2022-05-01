@@ -7,12 +7,12 @@ module.exports = {
         },
         colors: {
             transparent: 'transparent',
-            black: 'hsl(210, 27%, 10%)',
+            black: 'hsla(210, 0%, 10%, 1)',
             white: '#ffffff',
 	    theme: {
-                accent: 'hsl(251, 96%, 50%)',
-		main: 'hsl(231, 14%, 18%)',
-		'main-2': 'hsl(230, 15%, 16%)', 
+                accent: 'hsla(220, 77%, 50%, 1)',
+		main: 'hsla(231, 0%, 18%, 1)',
+		'main-2': 'hsla(231, 0%, 15%, 1)', 
  	    },
             primary: {
                 50: 'hsl(202, 100%, 95%)', // lightest
