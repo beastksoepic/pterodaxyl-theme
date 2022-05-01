@@ -27,7 +27,7 @@ const chartDefaults = (ticks?: Chart.TickOptions | undefined): ChartConfiguratio
             },
             line: {
                 tension: 0.3,
-                backgroundColor: 'rgba(197, 22, 60, 0.45)',
+                backgroundColor: 'rgba(131, 131, 171, 0.45)',
                 borderColor: '#1ca0d4',
             },
         },
