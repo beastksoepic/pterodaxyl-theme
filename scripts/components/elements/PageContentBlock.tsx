@@ -36,20 +36,16 @@ const PageContentBlock: React.FC<PageContentBlockProps> = ({ title, showFlashKey
                     {children}
                 </ContentContainer>
                 <ContentContainer css={tw`mb-4`}>
-                    <p css={tw`text-center text-neutral-500 text-xs`}
-                        style={{
-                            color: 'gray',
-                        }}
-                    >
-                        <StyledCopyright
+                <p css={tw`text-center text-neutral-500 text-xs`}>
+                        <a
                             rel={'noopener nofollow noreferrer'}
-                            href={'https://fyreblitz.com'}
+                            href={'https://pterodactyl.io'}
                             target={'_blank'}
                             css={tw`no-underline text-neutral-500 hover:text-neutral-300`}
                         >
-                            FyreBlitz
-                        </StyledCopyright>
-                        &nbsp;&copy; 2020 - {(new Date()).getFullYear()}
+                            Pterodactyl&reg;
+                        </a>
+                        &nbsp;&copy; 2015 - {(new Date()).getFullYear()}
                     </p>
                 </ContentContainer>
             </>

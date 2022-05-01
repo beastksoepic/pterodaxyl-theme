@@ -83,7 +83,7 @@ export default ({ server, className }: { server: Server; className?: string }) =
             <div css={tw`flex items-center col-span-12 sm:col-span-5 lg:col-span-6`}>
                 <div className={'icon'} css={tw`mr-4`}
                     style={{
-                        backgroundColor: '#fd6400',
+                        backgroundColor: '#0077ff',
                     }}
                 >
                     <FontAwesomeIcon icon={faServer}

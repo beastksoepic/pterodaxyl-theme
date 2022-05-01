@@ -9,7 +9,7 @@ import ReinstallServerBox from '@/components/server/settings/ReinstallServerBox'
 import tw from 'twin.macro';
 import Input from '@/components/elements/Input';
 import Label from '@/components/elements/Label';
-// import { LinkButton } from '@/components/elements/Button';
+import { LinkButton } from '@/components/elements/Button';
 import ServerContentBlock from '@/components/elements/ServerContentBlock';
 import isEqual from 'react-fast-compare';
 import CopyOnClick from '@/components/elements/CopyOnClick';
@@ -51,14 +51,21 @@ export default () => {
                             </div>
                             <div css={tw`mt-6 flex items-center`}>
                                 <div css={tw`flex-1`}>
-                                    <div css={tw`border-l-4 border-cyan-500 p-3`} style={{ borderColor: '#fd6400' }}>
+                                    <div css={tw`border-l-4 border-cyan-500 p-3`} style={{ borderColor: '#0077ff' }}>
                                         <p css={tw`text-xs text-neutral-200`}>
-                                            Your SFTP password is the same password as for accessing this panel.<br/>
-                                            You can change your password on https://dash.fyreblitz.com/
+                                            Your SFTP password is the same password as for accessing this panel.
                                         </p>
                                     </div>
                                 </div>
                             </div>
+                            <div css={tw`ml-4`}>
+                                    <LinkButton
+                                        isSecondary
+                                        href={`sftp://${username}.${id}@${formatIp(sftp.ip)}:${sftp.port}`}
+                                    >
+                                        Launch SFTP
+                                    </LinkButton>
+                                </div>
                         </TitledGreyBox>
                     </Can>
                 </div>

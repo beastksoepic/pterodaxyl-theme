@@ -14,8 +14,8 @@ const ButtonStyle = styled.button<Omit<Props, 'isLoading'>>`
     ${tw`relative inline-block rounded p-2 uppercase tracking-wide text-sm transition-all duration-150 border`};
     
     ${props => (!props.color || props.color === 'primary') && css<Props>`
-        border-color: #fd6400 !important;
-        background-color: #fd6400 !important;
+        border-color: #0077ff !important;
+        background-color: #0077ff !important;
         color: #fff !important;
         
         &:hover:not(:disabled) {
@@ -24,19 +24,19 @@ const ButtonStyle = styled.button<Omit<Props, 'isLoading'>>`
         }
 
         &:active:not(:disabled) {
-            border-color: #fd6400 !important;
-            background-color: #fd6400 !important;
+            border-color: #0077ff !important;
+            background-color: #0077ff !important;
         }
         
         ${props => props.isSecondary && css`
             background-color: inherit !important;
-            border-color: #fd6400 !important;
-            color: #fd6400 !important;
+            border-color: #0077ff !important;
+            color: #0077ff !important;
             &:hover:not(:disabled) {
                 ${tw`bg-green-600 border-green-700`};
                 color: #fff !important;
-                background-color: #fd6400 !important;
-                border-color: #fd6400 !important;
+                background-color: #0077ff !important;
+                border-color: #0077ff !important;
             }
             &:active:not(:disabled) {
                 ${tw`bg-green-600 border-green-700`};
@@ -143,8 +143,8 @@ const ButtonStyle = styled.button<Omit<Props, 'isLoading'>>`
             &:hover:not(:disabled) {
                 ${tw`bg-green-600 border-green-700`};
                 color: #fff;
-                background-color: #fd6400;
-                border-color: #fd6400;
+                background-color: #0077ff;
+                border-color: #0077ff;
             }
             &:active:not(:disabled) {
                 ${tw`bg-green-600 border-green-700`};

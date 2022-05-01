@@ -1,4 +1,4 @@
-{{-- Pterodactyl - Panel --}}
+{{-- Pterodaxyl - Panel --}}
 {{-- Copyright (c) 2015 - 2017 Dane Everitt <dane@daneeveritt.com> --}}
 
 {{-- This software is licensed under the terms of the MIT license. --}}
@@ -32,9 +32,9 @@
             </div>
             <div class="box-body">
                 @if ($version->isLatestPanel())
-                    You are running Pterodactyl Panel version <code>{{ config('app.version') }}</code>. Your panel is up-to-date!
+                    You are running Pterodaxyl Panel version <code>{{ config('app.version') }}</code>. Your panel is up-to-date!
                 @else
-                    Your panel is <strong>not up-to-date!</strong> The latest version is <a href="https://github.com/Pterodactyl/Panel/releases/v{{ $version->getPanel() }}" target="_blank"><code>{{ $version->getPanel() }}</code></a> and you are currently running version <code>{{ config('app.version') }}</code>.
+                    Your panel is <strong>not up-to-date!</strong> The latest version is <a href="https://github.com/Pterodaxyl/Panel/releases/v{{ $version->getPanel() }}" target="_blank"><code>{{ $version->getPanel() }}</code></a> and you are currently running version <code>{{ config('app.version') }}</code>.
                 @endif
             </div>
         </div>

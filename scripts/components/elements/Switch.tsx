@@ -17,8 +17,8 @@ const ToggleContainer = styled.div`
 
         &:checked + label:before {
             right: 0.125rem;
-            background-color: #fd6400;
-            border-color: #fd6400;
+            background-color: #0077ff;
+            border-color: #0077ff;
         }
     }
 

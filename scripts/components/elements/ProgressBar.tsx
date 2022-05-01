@@ -7,7 +7,7 @@ import tw from 'twin.macro';
 
 const BarFill = styled.div`
     ${tw`h-full bg-cyan-400`};
-    background-color: #fd6400;
+    background-color: #0077ff;
     transition: 250ms ease-in-out;
 `;
 

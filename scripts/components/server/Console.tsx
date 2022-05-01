@@ -54,12 +54,12 @@ const TerminalDiv = styled.div`
 const CommandInput = styled.input`
     ${tw`text-sm transition-colors duration-150 px-2 bg-transparent border-0 border-b-2 border-transparent text-neutral-100 p-2 pl-0 w-full focus:ring-0`}
     &:focus {
-        border-bottom: 2px solid #fd6400;
+        border-bottom: 2px solid #0077ff;
     }
 `;
 
 export default () => {
-    const TERMINAL_PRELUDE = '\u001b[1m\u001b[33mcontainer@fyreblitz~ \u001b[0m';
+    const TERMINAL_PRELUDE = '\u001b[1m\u001b[33mcontainer@pterodaxyl~ \u001b[0m';
     const ref = useRef<HTMLDivElement>(null);
     const terminal = useMemo(() => new Terminal({ ...terminalProps }), []);
     const fitAddon = new FitAddon();
@@ -75,7 +75,7 @@ export default () => {
     const [ historyIndex, setHistoryIndex ] = useState(-1);
 
     const handleConsoleOutput = (line: string, prelude = false) => {
-        return terminal.writeln(((prelude ? TERMINAL_PRELUDE : '') + line.replace(/(?:\r\n|\r|\n)$/im, '') + '\u001b[0m').replace('Pterodactyl', 'FyreBlitz'));
+        return terminal.writeln(((prelude ? TERMINAL_PRELUDE : '') + line.replace(/(?:\r\n|\r|\n)$/im, '') + '\u001b[0m').replace('Pterodactyl', 'Pterodaxyl'));
     };
 
     const handleTransferStatus = (status: string) => {

@@ -94,20 +94,20 @@ export default ({ className }: WithClassname) => {
                     <div css={tw`w-full flex items-center justify-center`}
                         style={{
                             pointerEvents: 'none',
-                            borderColor: '#fd6400',
+                            borderColor: '#0077ff',
                         }}
                     >
                         <InnerContainer
                             style={{
                                 pointerEvents: 'none',
-                                borderColor: '#fd6400',
+                                borderColor: '#0077ff',
                                 backgroundColor: '#151515',
                             }}
                         >
                             <p css={tw`text-lg text-neutral-200 text-center`}
                                 style={{
                                     pointerEvents: 'none',
-                                    borderColor: '#fd6400',
+                                    borderColor: '#0077ff',
                                     color: '#fff',
                                 }}
                             >

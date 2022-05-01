@@ -64,7 +64,7 @@ const chartDefaults = (ticks?: Chart.TickOptions | undefined): ChartConfiguratio
             {
                 fill: true,
                 data: Array(20).fill(0),
-                borderColor: '#fd6400',
+                borderColor: '#0077ff',
             },
         ],
     },

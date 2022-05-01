@@ -120,7 +120,7 @@ const LoginContainer = ({ history }: RouteComponentProps) => {
                     }
                     <div css={tw`mt-6 text-center`}>
                         <StyledA
-                            href={'https://dash.fyreblitz.com/auth/forgot'}
+                            href={'/auth/forgot'}
                             css={tw`text-xs text-neutral-500 tracking-wide no-underline uppercase hover:text-neutral-600`}
                             style={{
                                 color: 'lightgray',
