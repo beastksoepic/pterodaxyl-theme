@@ -10,9 +10,9 @@ module.exports = {
             black: 'hsla(210, 0%, 10%, 1)',
             white: '#ffffff',
 	    theme: {
-                accent: 'hsla(220, 77%, 50%, 1)',
-		main: 'hsla(231, 0%, 18%, 1)',
-		'main-2': 'hsla(231, 0%, 15%, 1)', 
+            accent: 'hsla(197, 77%, 47%, 1)',
+		    main: 'hsla(0, 0%, 10%, 1)',
+		    'main-2': 'hsla(0, 0%, 5%, 1)', 
  	    },
             primary: {
                 50: 'hsl(202, 100%, 95%)', // lightest
