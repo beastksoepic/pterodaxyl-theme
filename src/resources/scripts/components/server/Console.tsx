@@ -54,7 +54,7 @@ const TerminalDiv = styled.div`
 const CommandInput = styled.input`
     ${tw`text-sm transition-colors duration-150 px-2 bg-transparent border-0 border-b-2 border-transparent text-neutral-100 p-2 pl-0 w-full focus:ring-0`}
     &:focus {
-        border-bottom: 2px solid #1ca0d4;
+        border-bottom: 2px solid #45caff;
     }
 `;
 
