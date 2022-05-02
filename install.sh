@@ -49,7 +49,8 @@ else
    echo "Backup created."
 fi
 
-sudo curl https://raw.githubusercontent.com/beastksoepic/pterodaxyl-theme/main/pterodaxyl-theme.tar.gz | sudo tar -xz
+curl -Lo panel.tar.gz https://github.com/beastksoepic/pterodaxyl/releases/latest/download/theme.tar.gz
+tar -xzvf theme.tar.gz
 #clear
 cd /var/www/pterodactyl
 
